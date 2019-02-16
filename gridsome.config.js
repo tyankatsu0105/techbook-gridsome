@@ -6,16 +6,16 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  // plugins: [
-  //   {
-  //     use: '@gridsome/source-contentful',
-  //     options: {
-  //       space: 'YOUR_SPACE', // required
-  //       accessToken: 'YOUR_ACCESS_TOKEN', // required
-  //       host: 'cdn.contentful.com',
-  //       environment: 'master',
-  //       typeName: 'Contentful'
-  //     }
-  //   }
-  // ]
+  plugins: [
+    {
+      use: '@gridsome/source-contentful',
+      options: {
+        space: 'xxxxxxxxx',
+        accessToken: 'xxxxxxxxxxxxxxxxx',
+        host: 'cdn.contentful.com',
+        environment: 'development',
+        typeName: 'Contentful'
+      }
+    }
+  ]
 }
